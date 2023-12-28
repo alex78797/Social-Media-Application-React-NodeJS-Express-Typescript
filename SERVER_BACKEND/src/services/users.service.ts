@@ -2,7 +2,7 @@ import { pool } from "../config/postgreSQL.config";
 import { User } from "../models/user.model";
 
 /**
- * SQL code that retreives the user who created the comment from the database
+ * SQL code that retrieves the user who created the comment from the database
  * @param commentId
  * @returns
  */
@@ -16,7 +16,7 @@ export async function getCommentAuthorDB(commentId: string): Promise<User> {
 }
 
 /**
- * SQL code that retreives the user who created the post from the database
+ * SQL code that retrieves the user who created the post from the database
  * @param postId
  * @returns
  */
