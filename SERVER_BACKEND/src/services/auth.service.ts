@@ -2,7 +2,7 @@ import { pool } from "../config/postgreSQL.config";
 import { User } from "../models/user.model";
 
 /**
- * SQL code that retreives the user with the given email from the database
+ * SQL code that retrieves the user with the given email from the database
  * @param email the email of the user
  * @returns
  */
@@ -44,7 +44,7 @@ export async function saveUserDB(
 }
 
 /**
- * SQL code that retreives the user wtih the given refresh token from the database
+ * SQL code that retrieves the user wtih the given refresh token from the database
  * @param refreshToken
  * @returns
  */
@@ -57,7 +57,7 @@ export async function getUserByRefreshTokenDB(
 }
 
 /**
- * SQL code that retreives the user with the given id from the database
+ * SQL code that retrieves the user with the given id from the database
  * @param userId 
  * @returns 
  */
