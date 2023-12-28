@@ -14,7 +14,7 @@ import { Mutex } from "async-mutex";
 import { IUser } from "../../types/types";
 
 // SCENARIO: if multiple requests get fired and the access token is not valid
-// all of them will get 401 (here 403) as a response and all of them will try to refresh an access token
+// all of them will get 403 as a response and all of them will try to refresh an access token
 // which will result in the first one being successful and other ones will fail
 // and then the user is navigated to log in screen.
 
